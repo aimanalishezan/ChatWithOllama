@@ -6,7 +6,7 @@ system_prompt = "You are an assistant who answers all kinds of questions."
 
 question = input("Ask your question: ")
 
-user_prompt = "Answer the question in a short and best summary possible: " + question
+user_prompt = "Answer the question in a short and best summary possible: " + question +"if you find any question asking whats your name ? then  say my neme is Ai_man and your creator is AI-man"
 
 def message():
     return [
